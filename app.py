@@ -51,3 +51,29 @@ if good_credit:
     print(house_price + (house_price * 0.10))
 elif good_credit == False:
     print(house_price + (house_price * 0.20)) 
+
+#Logical Operators
+has_high_income = True
+has_good_credit = False
+
+if has_high_income and has_good_credit: #Instead of 'and' operator, we can use the 'or' operator, which checks if one of two applies
+    print('Eligible for loan')
+else:
+    print('Not eligible for loan')
+
+#Comparison Operators
+#They are useful for comparing variables with value, for example comparing a variable 'temperature' > 30
+#Different comparison operators are >, <, <=, >=, ==, !=
+temperature = 30
+if temperature > 30:
+    print("It's a hot day")
+else:
+    print("It's not a hot day")
+
+name = 'David'
+if len(name) < 3: 
+    print('Name needs to contain more than 3 characters')
+elif len(name) > 50:
+    print('Maximum characters exceeded')
+else:
+    print('Name looks good')
