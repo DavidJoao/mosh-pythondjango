@@ -9,6 +9,14 @@ patient_name = 'John Smith'
 age = 20
 new_patient = True
 
-the_name = input('What is your name? \n')
-fav_color = input('What is your favorite color? \n')
-print('Hi ' + the_name + ', I see your favorite color is ' + fav_color)
+# the_name = input('What is your name? \n')
+# fav_color = input('What is your favorite color? \n')
+# print('Hi ' + the_name + ', I see your favorite color is ' + fav_color)
+
+#Type conversion
+# birth_year = input('Birth year: \n')
+# age = 2020 - int(birth_year)
+# print(age)
+pounds = input('Enter your weight in pounds: \n')
+kilograms = float(pounds) * 0.45
+print ('Your weight in kilograms is ' + str(kilograms))
