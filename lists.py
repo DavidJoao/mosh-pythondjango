@@ -39,3 +39,28 @@ for number in new_list:
         uniques.append(number)
 print(uniques)
     
+
+#########################################      Tuples
+#Tuples are very similar to lists
+#Tuples are very strict and we are not able to modify them
+#The only two methods that we are able to use are count and index
+#We are only able to get information from Tuples
+
+numbers = (1, 2, 3)
+numbers.count(1)
+numbers.index(1)
+
+#########################################      Unpacking
+coordinates = (1, 2, 3)
+
+#This example is a bad practice because it gets too long and repetitive
+coordinates[0] * coordinates[1] * coordinates[2] 
+
+#this example
+x = coordinates[0]
+y = coordinates[1]
+z = coordinates[2]
+#is the same thing as:
+x, y, z = coordinates 
+#We can use this with lists
+
