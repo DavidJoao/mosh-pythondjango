@@ -1,4 +1,5 @@
 import converter
+from ecommerce.shipping import calc_shipping
 
 #We can also import a specific function
 from converter import lbs_to_kgs
@@ -19,5 +20,8 @@ lbs_to_kgs(100)
 #Exercise test
 print(find_max([1, 2, 3, 4, 60, 2, 1, 54, 5]))
 
+calc_shipping()
+
 
 #########################################      Packages 
+
