@@ -1,3 +1,5 @@
+import random
+
 #########################################      Classes
 class Point:
     def move(self):
@@ -54,3 +56,16 @@ class Cat(Mammal):
     
 tinker = Dog()
 tinker.walk()
+
+
+#Random Exercise
+
+class Dice:
+    def roll(self):
+        first_dice = random.randint(1, 6)
+        second_dice = random.randint(1, 6)
+        dice_tuple = (first_dice, second_dice)
+        print(dice_tuple)
+
+dice = Dice()
+dice.roll()
